@@ -1,13 +1,24 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-08-phonebook/static/css/main.7acaea2f.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.07d3183d.js",
+    "main.css": "/goit-react-hw-08-phonebook/static/css/main.c3d5249d.css",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.33a34bcc.js",
+    "static/js/304.86ed5bfc.chunk.js": "/goit-react-hw-08-phonebook/static/js/304.86ed5bfc.chunk.js",
+    "static/js/643.6598697f.chunk.js": "/goit-react-hw-08-phonebook/static/js/643.6598697f.chunk.js",
+    "static/js/345.183635da.chunk.js": "/goit-react-hw-08-phonebook/static/js/345.183635da.chunk.js",
+    "static/js/605.7ed8814f.chunk.js": "/goit-react-hw-08-phonebook/static/js/605.7ed8814f.chunk.js",
+    "static/js/586.fae43da6.chunk.js": "/goit-react-hw-08-phonebook/static/js/586.fae43da6.chunk.js",
+    "static/media/background.jpg": "/goit-react-hw-08-phonebook/static/media/background.0f6958415045a7a1145c.jpg",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
-    "main.7acaea2f.css.map": "/goit-react-hw-08-phonebook/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/goit-react-hw-08-phonebook/static/js/main.07d3183d.js.map"
+    "main.c3d5249d.css.map": "/goit-react-hw-08-phonebook/static/css/main.c3d5249d.css.map",
+    "main.33a34bcc.js.map": "/goit-react-hw-08-phonebook/static/js/main.33a34bcc.js.map",
+    "304.86ed5bfc.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/304.86ed5bfc.chunk.js.map",
+    "643.6598697f.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/643.6598697f.chunk.js.map",
+    "345.183635da.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/345.183635da.chunk.js.map",
+    "605.7ed8814f.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/605.7ed8814f.chunk.js.map",
+    "586.fae43da6.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/586.fae43da6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.c3d5249d.css",
+    "static/js/main.33a34bcc.js"
   ]
 }
