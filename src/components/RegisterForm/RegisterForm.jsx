@@ -68,13 +68,13 @@ export const RegisterForm = () => {
 
   return (
     <S.RegisterForm
-      autoComplete="off"
+      autoComplete="on"
       noValidate
       onSubmit={handleSubmit(data => {
         onSubmit(data);
       })}
     >
-      <S.Title>Регістрація</S.Title>
+      <S.Title>Реєстрація</S.Title>
 
       <S.Label>
         <S.TextLabel>Ім'я</S.TextLabel>
@@ -109,7 +109,11 @@ export const RegisterForm = () => {
       </S.Label>
 
       <S.Button type="submit" disabled={isLoading}>
-        {isLoading ? <Loader width="15" height="15" color="#fff" /> : 'Sing up'}
+        {isLoading ? (
+          <Loader width="15" height="15" color="#ffffff" />
+        ) : (
+          'Реєстрація'
+        )}
       </S.Button>
 
       <S.Text>

@@ -12,7 +12,7 @@ export const Navigation = () => {
             <S.Thumb>
               <S.HomeIcon />
             </S.Thumb>
-            Home
+            Головна
           </S.Link>
         </li>
         {isLoggedIn && (
@@ -21,7 +21,7 @@ export const Navigation = () => {
               <S.Thumb>
                 <S.ContactsIcon />
               </S.Thumb>
-              Contacts
+              Контакти
             </S.Link>
           </li>
         )}

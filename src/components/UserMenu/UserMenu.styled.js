@@ -18,7 +18,7 @@ export const Container = styled.div`
 export const Email = styled.p`
   max-width: 120px;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 17px;
   line-height: 1.5;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -58,7 +58,7 @@ export const Logout = styled.button`
   padding: 0;
   font-weight: 700;
   white-space: nowrap;
-  font-size: 12px;
+  font-size: 17px;
   line-height: 1.5;
   color: ${({ theme }) => theme.colors.secondaryText};
   background-color: transparent;

@@ -8,7 +8,7 @@ export const AuthNav = ({ className }) => (
         <S.Thumb>
           <S.SignUpIcon />
         </S.Thumb>
-        Sign up
+        Реєстрація
       </S.Link>
     </li>
     <li>
@@ -16,7 +16,7 @@ export const AuthNav = ({ className }) => (
         <S.Thumb>
           <S.SignInIcon />
         </S.Thumb>
-        Sign in
+        Увійти
       </S.Link>
     </li>
   </S.List>

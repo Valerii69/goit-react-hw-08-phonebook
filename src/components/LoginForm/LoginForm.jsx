@@ -54,7 +54,7 @@ export const LoginForm = () => {
 
   return (
     <S.LoginForm
-      autoComplete="off"
+      autoComplete="on"
       noValidate
       onSubmit={handleSubmit(data => {
         onSubmit(data);
@@ -85,7 +85,11 @@ export const LoginForm = () => {
       </S.Label>
 
       <S.Button type="submit" disabled={isLoading}>
-        {isLoading ? <Loader width="15" height="15" color="#fff" /> : 'Увійти'}
+        {isLoading ? (
+          <Loader width="15" height="15" color="#ffffff" />
+        ) : (
+          'Увійти'
+        )}
       </S.Button>
 
       <S.Text>

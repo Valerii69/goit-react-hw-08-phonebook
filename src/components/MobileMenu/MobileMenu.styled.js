@@ -10,14 +10,14 @@ export const Container = styled.div`
   backdrop-filter: blur(10.5px);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  transform: translate(-50%, -101%);
+  transform: translate(-50%, -101%) scale() (1, 2);
   visibility: hidden;
   transition: transform
       ${({ theme }) => `${theme.duration} ${theme.timingFunction}`},
     visibility ${({ theme }) => theme.duration};
 
   &.active {
-    transform: translate(-50%, 0);
+    transform: translate(-50%, 0) scale (1.2);
     visibility: visible;
   }
 

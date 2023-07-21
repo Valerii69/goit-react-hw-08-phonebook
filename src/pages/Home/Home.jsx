@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
     <S.Section>
-      <S.SectionTitle>Телефонна книга домашня сторінка</S.SectionTitle>
+      <S.SectionTitle>Телефонна книга Головна</S.SectionTitle>
       {isLoggedIn ? (
         <S.Title>Вітаю, {name}!</S.Title>
       ) : (

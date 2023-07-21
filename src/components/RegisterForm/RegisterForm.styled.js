@@ -18,10 +18,6 @@ export const RegisterForm = styled.form`
   background-color: ${({ theme }) => theme.colors.primary};
   border-radius: 15px;
   box-shadow: 0px 7px 23px rgba(0, 0, 0, 0.05);
-
-  /* @media screen and (min-width: ${({ theme }) => theme.breakpoint}) {
-    padding: 45px 51px;
-  } */
 `;
 
 export const Label = styled.label`
@@ -80,6 +76,7 @@ export const Button = styled.button`
   &:hover:not(:disabled) {
     color: ${({ theme }) => theme.colors.accent};
     background-color: ${({ theme }) => theme.colors.primary};
+    /* scale (1.2); */
   }
 
   &:disabled {

@@ -34,7 +34,7 @@ export const UserMenu = ({ className }) => {
             <S.LogoutIcon />
           )}
         </S.Thumb>
-        Log out
+        Вихід
       </S.Logout>
     </S.Container>
   );

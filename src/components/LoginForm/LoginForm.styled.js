@@ -111,7 +111,7 @@ export const SignInLink = styled(Link)`
     width: 100%;
     background-color: ${({ theme }) => theme.colors.accent};
     opacity: 0;
-    transition: opacity
+    transition: scale(1.2) opacity
       ${({ theme }) => `${theme.duration} ${theme.timingFunction}`};
   }
 

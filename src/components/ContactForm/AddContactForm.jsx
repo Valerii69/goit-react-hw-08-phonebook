@@ -92,7 +92,7 @@ export const AddContactForm = ({ contacts }) => {
 
       <S.Button type="submit" disabled={isAdding}>
         {isAdding ? (
-          <Loader width="17" height="17" color="#fff" />
+          <Loader width="15" height="15" color="#ffffff" />
         ) : (
           'Додати контакт'
         )}
