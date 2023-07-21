@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import backgroundImg from 'images/background.jpg';
-// import backgroundImg2x from 'images/background@2x.jpg';
 
 export const Section = styled.section`
   padding: 24px;
@@ -11,12 +10,11 @@ export const Section = styled.section`
   box-shadow: 4px 1px 4px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   top: 12px;
-  /* left: 50%; */
+
   z-index: -1;
   display: block;
-  /* width: 100vw; */
+
   height: 50vw;
-  /* transform: translateX(-50%); */
 `;
 
 export const Title = styled.h1`
@@ -27,8 +25,6 @@ export const Title = styled.h1`
   overflow: hidden;
   border: 0;
   padding: 0;
-  /* clip: rect(0 0 0 0);
-  clip-path: inset(50%); */
   margin: -1px;
 `;
 

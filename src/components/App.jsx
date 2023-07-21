@@ -6,7 +6,7 @@ import { PrivateRoute } from 'components/PrivateRoute';
 import { RestrictedRoute } from 'components/RestrictedRoute';
 import { Layout } from 'components/Layout';
 import { NotFound } from './NotFound';
-import { refreshUser } from 'redux/auth/operations';
+import { refreshUser } from 'redux/auth/operationsAuth';
 
 const HomePage = lazy(() => import('pages/Home/Home'));
 

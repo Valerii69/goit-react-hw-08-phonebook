@@ -1,4 +1,4 @@
-import { useFetchContactsQuery } from 'redux/contacts/slice';
+import { useFetchContactsQuery } from 'redux/contacts/sliceContacts';
 import { AddContactForm } from 'components/ContactForm';
 import { Filter } from 'components/Filter';
 import { ContactList } from 'components/ContactList';

@@ -5,7 +5,7 @@ import {
   selectIsRefreshing,
   selectError,
   selectIsLoading,
-} from 'redux/auth/selectors';
+} from 'redux/auth/selectorsAuth';
 
 export const useAuth = () => {
   return {

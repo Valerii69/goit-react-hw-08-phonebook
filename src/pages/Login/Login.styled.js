@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import backgroundImg from 'images/background.jpg';
-// import backgroundImg2x from 'images/backgroundCube@2x.jpg';
 
 export const Section = styled.section`
   background-image: url(${backgroundImg});
@@ -25,8 +24,6 @@ export const Section = styled.section`
     z-index: -1;
     display: block;
 
-    /* width: 260px;
-    height: 260px; */
     background-image: url(${backgroundImg});
     background-size: cover;
     background-position: center;

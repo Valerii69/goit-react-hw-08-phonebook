@@ -47,11 +47,6 @@ export const Section = styled.section`
       width: calc(100% - 24px);
       height: calc(100% - 12px);
     }
-
-    /* @media screen and (min-width: 1080px) {
-      width: 600px;
-      height: 600px;
-    } */
   }
 `;
 

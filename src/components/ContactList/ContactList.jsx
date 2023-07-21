@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 import PropTypes from 'prop-types';
-import { selectFilter } from 'redux/filter/selectors';
+import { selectFilter } from 'redux/filter/selectorsFilter';
 import { ContactCard } from 'components/ContactCard';
 import * as S from './ContactList.styled';
 

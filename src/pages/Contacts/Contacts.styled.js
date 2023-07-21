@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import backgroundImg from 'images/background.jpg';
-// import backgroundImg2x from 'images/background@2x.jpg';
 
 export const ErrorText = styled.p`
   width: 100%;
@@ -24,10 +23,8 @@ export const Section = styled.section`
   gap: 24px;
   flex-wrap: wrap;
   align-items: center;
-  /* padding-top: 24px; */
+
   padding: 24px;
-  /* padding-left: 24px;
-  padding-right: 24px; */
 
   &::after {
     content: '';
@@ -45,24 +42,11 @@ export const Section = styled.section`
     border-radius: 15px;
     transform: translateX(-50%);
 
-    /* @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: url(${backgroundImg});
-      background-size: cover;
-      background-position: center;
-    } */
-
     @media screen and (min-width: ${({ theme }) => theme.breakpoint}) {
       top: 24px;
       width: calc(100% - 48px);
     }
   }
-
-  /* @media screen and (min-width: ${({ theme }) => theme.breakpoint}) {
-    padding-left: 48px;
-    padding-right: 48px;
-  } */
 
   @media screen and (min-width: 1000px) {
     flex-wrap: nowrap;
@@ -103,10 +87,6 @@ export const ContactsContainer = styled.div`
   background-color: ${({ theme }) => theme.colors.primary};
   border-radius: 15px;
   box-shadow: 0px 7px 23px rgba(0, 0, 0, 0.05);
-
-  /* @media screen and (min-width: 680px) {
-    padding: 45px 51px;
-  } */
 `;
 
 export const Text = styled.p`

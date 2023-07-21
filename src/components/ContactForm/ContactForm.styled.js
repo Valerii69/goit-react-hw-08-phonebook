@@ -7,10 +7,6 @@ export const ContactForm = styled.form`
   background-color: ${({ theme }) => theme.colors.primary};
   border-radius: 15px;
   box-shadow: 0px 7px 23px rgba(0, 0, 0, 0.05);
-
-  /* @media screen and (min-width: 680px) {
-    padding: 24px 24px;
-  } */
 `;
 
 export const Input = styled.input`
@@ -62,6 +58,7 @@ export const Button = styled.button`
   background-color: ${({ theme }) => theme.colors.accent};
   border: 1px solid ${({ theme }) => theme.colors.accent};
   border-radius: 12px;
+  box-shadow: ${({ theme }) => theme.boxShadow};
   transition: background-color
       ${({ theme }) => `${theme.duration} ${theme.timingFunction}`},
     color ${({ theme }) => `${theme.duration} ${theme.timingFunction}`};

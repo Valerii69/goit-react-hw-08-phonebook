@@ -4,7 +4,7 @@ import { toast } from 'react-hot-toast';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import PropTypes from 'prop-types';
-import { useAddContactMutation } from 'redux/contacts/slice';
+import { useAddContactMutation } from 'redux/contacts/sliceContacts';
 import { Loader } from 'components/Loader';
 import { validatePattern, errorMessage } from 'constants';
 import * as S from './ContactForm.styled';
@@ -75,17 +75,17 @@ export const AddContactForm = ({ contacts }) => {
       })}
     >
       <S.Label>
-        <S.TextLabel>Name</S.TextLabel>
+        <S.TextLabel>Ім'я</S.TextLabel>
         <S.Input {...register('name')} type="text" placeholder="Ім'я" />
         {errors.name && <S.ErrorText>{errors.name?.message}</S.ErrorText>}
       </S.Label>
 
       <S.Label>
-        <S.TextLabel>Number</S.TextLabel>
+        <S.TextLabel>Номер</S.TextLabel>
         <S.Input
           {...register('number')}
           type="tel"
-          placeholder="Номер телефону"
+          placeholder="Номер телефона"
         />
         {errors.number && <S.ErrorText>{errors.number?.message}</S.ErrorText>}
       </S.Label>

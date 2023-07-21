@@ -15,11 +15,7 @@ const Home = () => {
       ) : (
         <S.Title>Вітаю, друже!</S.Title>
       )}
-      <S.Text>
-        Створи для себе книгу контактів, яка завжди з вами!
-        {/* Ця програма створена за допомогою: React.js, React Router
-        Dom, Redux Toolkit, Redux Persist, ChakraUI, Axios та інші. */}
-      </S.Text>
+      <S.Text>Створи для себе книгу контактів, яка завжди з вами!</S.Text>
     </S.Section>
   );
 };

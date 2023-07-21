@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 import {
   useUpdateContactMutation,
   useFetchContactsQuery,
-} from 'redux/contacts/slice';
+} from 'redux/contacts/sliceContacts';
 import { Loader } from 'components/Loader';
 import { validatePattern, errorMessage } from 'constants';
 import * as S from './ContactForm.styled';
@@ -107,13 +107,13 @@ export const EditContactForm = ({ id, name: oldName, number: oldNumber }) => {
       })}
     >
       <S.Label>
-        <S.TextLabel>Current name: {oldName}</S.TextLabel>
+        <S.TextLabel>Нове ім'я: {oldName}</S.TextLabel>
         <S.Input {...register('name')} type="text" placeholder="Нове ім'я" />
         {errors.name && <S.ErrorText>{errors.name?.message}</S.ErrorText>}
       </S.Label>
 
       <S.Label>
-        <S.TextLabel>Current number: {oldNumber}</S.TextLabel>
+        <S.TextLabel>Новий номер: {oldNumber}</S.TextLabel>
         <S.Input
           {...register('номер')}
           type="tel"

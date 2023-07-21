@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { toast } from 'react-hot-toast';
 import PropTypes from 'prop-types';
-import { useDeleteContactMutation } from 'redux/contacts/slice';
+import { useDeleteContactMutation } from 'redux/contacts/sliceContacts';
 import { Modal } from 'components/Modal';
 import * as S from './ContactCard.styled';
 
@@ -34,7 +34,7 @@ export const ContactCard = ({ contactId, name, number }) => {
     <S.ContactCard>
       <S.Name>{name}</S.Name>
       <S.Number>
-        Phone number:
+        Номер телефона:
         <span>{number}</span>
       </S.Number>
 
@@ -47,13 +47,13 @@ export const ContactCard = ({ contactId, name, number }) => {
             className="delete"
           >
             <S.DeleteIcon />
-            Delete
+            Видалити
           </S.Button>
         </li>
         <li>
           <S.Button type="button" className="edit" onClick={handleOpenModal}>
             <S.EditIcon />
-            Edit
+            Змінити
           </S.Button>
         </li>
       </S.List>

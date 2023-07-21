@@ -58,11 +58,6 @@ export const Link = styled(NavLink)`
     & ${SignUpIcon}, ${SignInIcon} {
       fill: ${({ theme }) => theme.colors.secondaryText};
     }
-
-    /* & ${SignInIcon}  {
-      fill: ${({ theme }) => theme.colors.primary};
-    } */
-
     & ${Thumb} {
       background-color: ${({ theme }) => theme.colors.accent};
     }
