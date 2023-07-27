@@ -24,16 +24,12 @@ export const App = () => {
     dispatch(refreshUser());
   }, [dispatch]);
 
-  return !isRefreshing ? (
+  return isRefreshing ? (
+    <b>Загрузка користувача...</b>
+  ) : (
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
-        <Route
-          path="contacts"
-          element={
-            <PrivateRoute component={ContactsPage} redirectTo="/login" />
-          }
-        />
         <Route
           path="register"
           element={
@@ -46,8 +42,14 @@ export const App = () => {
             <RestrictedRoute component={LoginPage} redirectTo="/contacts" />
           }
         />
+        <Route
+          path="contacts"
+          element={
+            <PrivateRoute component={ContactsPage} redirectTo="/login" />
+          }
+        />
       </Route>
       <Route path="*" element={<NotFound />} />
     </Routes>
-  ) : null;
+  );
 };
