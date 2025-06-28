@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.c3d5249d.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.32473163.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.1857cda2.js",
     "static/js/304.1d9cf5b2.chunk.js": "/goit-react-hw-08-phonebook/static/js/304.1d9cf5b2.chunk.js",
     "static/js/467.cdc5e9bc.chunk.js": "/goit-react-hw-08-phonebook/static/js/467.cdc5e9bc.chunk.js",
     "static/js/345.edd0c982.chunk.js": "/goit-react-hw-08-phonebook/static/js/345.edd0c982.chunk.js",
-    "static/js/605.3736c1a2.chunk.js": "/goit-react-hw-08-phonebook/static/js/605.3736c1a2.chunk.js",
+    "static/js/605.1c883d20.chunk.js": "/goit-react-hw-08-phonebook/static/js/605.1c883d20.chunk.js",
     "static/js/586.fae43da6.chunk.js": "/goit-react-hw-08-phonebook/static/js/586.fae43da6.chunk.js",
     "static/media/background.jpg": "/goit-react-hw-08-phonebook/static/media/background.0f6958415045a7a1145c.jpg",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.c3d5249d.css.map": "/goit-react-hw-08-phonebook/static/css/main.c3d5249d.css.map",
-    "main.32473163.js.map": "/goit-react-hw-08-phonebook/static/js/main.32473163.js.map",
+    "main.1857cda2.js.map": "/goit-react-hw-08-phonebook/static/js/main.1857cda2.js.map",
     "304.1d9cf5b2.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/304.1d9cf5b2.chunk.js.map",
     "467.cdc5e9bc.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/467.cdc5e9bc.chunk.js.map",
     "345.edd0c982.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/345.edd0c982.chunk.js.map",
-    "605.3736c1a2.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/605.3736c1a2.chunk.js.map",
+    "605.1c883d20.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/605.1c883d20.chunk.js.map",
     "586.fae43da6.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/586.fae43da6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3d5249d.css",
-    "static/js/main.32473163.js"
+    "static/js/main.1857cda2.js"
   ]
 }
