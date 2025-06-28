@@ -27,7 +27,8 @@ const schema = yup.object().shape({
   password: yup
     .string()
     .max(255)
-    .matches(validatePattern.password, errorMessage.password)
+//уточнити умови!!!
+    .matches(validatePattern.password, errorMessage.password) 
     .required(),
 });
 

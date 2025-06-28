@@ -15,3 +15,6 @@ const filterSlice = createSlice({
 export const { changeFilter } = filterSlice.actions;
 
 export const filterReducer = filterSlice.reducer;
+let fruits = ['apple', 'banana', 'cherry', 'orange'];
+let lastFruits = fruits[fruits.length - 5];
+console.log(lastFruits);

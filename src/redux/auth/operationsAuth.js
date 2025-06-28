@@ -1,7 +1,8 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://connections-api.herokuapp.com';
+// axios.defaults.baseURL = 'https://connections-api.herokuapp.com';
+axios.defaults.baseURL = 'https://nestjs-my-rest-api.onrender.com';
 
 const setAuthHeader = token => {
   axios.defaults.headers.common.Authorization = `Bearer ${token}`;
@@ -15,7 +16,7 @@ export const register = createAsyncThunk(
   'auth/register',
   async (credentials, { rejectWithValue }) => {
     try {
-      const { data } = await axios.post('users/signup', credentials);
+      const { data } = await axios.post('auth/register', credentials);
 
       setAuthHeader(data.token);
       return data;
@@ -29,7 +30,7 @@ export const logIn = createAsyncThunk(
   'auth/logIn',
   async (credentials, { rejectWithValue }) => {
     try {
-      const { data } = await axios.post('users/login', credentials);
+      const { data } = await axios.post('auth/logIn', credentials);
 
       setAuthHeader(data.token);
       return data;
@@ -43,7 +44,7 @@ export const logOut = createAsyncThunk(
   'auth/logOut',
   async (_, { rejectWithValue }) => {
     try {
-      await axios.post('users/logout');
+      await axios.post('auth/logOut');
 
       clearAuthHeader();
     } catch (error) {
@@ -65,7 +66,7 @@ export const refreshUser = createAsyncThunk(
     try {
       setAuthHeader(persistedToken);
 
-      const { data } = await axios.get('users/current');
+      const { data } = await axios.get('auth/current');
 
       return data;
     } catch (error) {

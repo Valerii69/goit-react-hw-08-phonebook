@@ -17,7 +17,7 @@ const schema = yup.object().shape({
     .max(255)
     .matches(validatePattern.email, errorMessage.email)
     .required(),
-  password: yup.string().min(8).max(255).required(),
+  password: yup.string().min(6).max(255).required(),
 });
 
 const initialValues = {
